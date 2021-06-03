@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/main.css" th:href="@{main.css}">
+
+    <title>Input</title>
+</head>
+<body>
+<h1>Input</h1>
+<h2>Enter your name</h2>
+<form action="Output" th:action="@{Output}">
+
+    <p>
+  <input type="submit" value="Send">
+    </p>
+</form>
+</body>
+</html>
