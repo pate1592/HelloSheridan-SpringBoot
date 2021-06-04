@@ -11,7 +11,15 @@
 <h1>Input</h1>
 <h2>Enter your name</h2>
 <form action="Output" th:action="@{Output}">
+    <p>
+        <label for="fn">First name</label>
+        <input id="fn" th:name="firstName">
+    </p>
 
+    <p>
+        <label for="ln">Last name</label>
+        <input id="ln" th:name="lastName">
+    </p>
     <p>
   <input type="submit" value="Send">
     </p>

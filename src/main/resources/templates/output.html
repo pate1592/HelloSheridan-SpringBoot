@@ -9,8 +9,8 @@
 </head>
 <body>
 <h1>Output</h1>
-<p>First name:</p>
-<p>Last name:</p>
-
+<p>First name:<span th:text="${param.firstName}">K</span></p>
+<p>Last name:<span th:text="${param.lastName}">P</span></p>
+    <p><a href="input.html" th:href="@{Input}">Back to Input</a></p>
 </body>
 </html>
